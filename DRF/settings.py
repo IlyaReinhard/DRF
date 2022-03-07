@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     #3rd party
     'rest_framework',
+    'pygments',
+    'httpie',
 
     #apps
     'DRF.api.apps.ApiConfig',
