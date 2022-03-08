@@ -32,5 +32,5 @@ substitutions:
     _SERVICE_REGION   : northamerica-northeast1
     _SERVICE_PROJECT  : staging
     _SERVICE_NAME     : my-docker-app-staging
-    _DOCKER_REGISTRY  : astahov-docker-repo
+    _DOCKER_REGISTRY  : reinhard-docker-repo
     _DOCKER_IMAGENAME : myapp-staging
