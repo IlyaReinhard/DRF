@@ -5,9 +5,7 @@
 
 FROM ubuntu:20.04
 
-ARG DEBIAN_FRONTEND=noninteractive
-ENV TZ=Europe/Moscow
-RUN apt-get install -y tzdata
+RUN apt-get update && apt-get install -y tzdata
 RUN apt-get -y update
 RUN apt-get -y install apache2
 
