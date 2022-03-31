@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'pygments',
     'httpie',
+    'coreapi',
+
 
     #apps
     'DRF.api.apps.ApiConfig',
